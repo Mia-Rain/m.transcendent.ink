@@ -2,11 +2,17 @@ root {
 	--font: black;
 	--bg: white;
 }
+@media screen and (max-width: 768px) {
+	font-size: 2vh !important;
+}
+@media screen and (max-height: 768px) and (max-width: 450px){
+	font-size: 3.2vh !important;
+}	
 body {
 	--font: black;
 	--bg: white;
 	font-family: Monoid;
-	font-size: 1.75vh;
+	font-size: 2.5vh;
 	font-weight: bold;
 	background-color: var(--bg);
 	color: var(--font);
